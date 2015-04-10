@@ -19,7 +19,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_mainxml);
         mContext = this.getBaseContext();
     }
 
@@ -56,7 +56,10 @@ public class MainActivity extends ActionBarActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
 
+    }
 
-
+    public void testFragment(View view){
+        Intent intent = new Intent(this, FragmentTestActivity.class);
+        startActivity(intent);
     }
 }

@@ -7,4 +7,5 @@
     <string name="send">send</string>
     <string name="title_activity_display_message">My Message</string>
     <string name="search">search</string>
+    <string name="title_activity_fragment_test">FragmentTestActivity</string>
 </resources>
